@@ -1,0 +1,10 @@
+- Arrancar virtualBox, y la maquina debian20gb
+- cambiamos al directorio /var/www/nuevo_flask
+- ejecutamos:  pipenv shell
+- una vez dentro del entorno (aparece nombre del entorno antes)
+- ejecutamos: flask run --host '0.0.0.0'
+- con eso ya está disponible, en el puerto 5000 de localhost
+  o de la ip de la maquina virtual, si se visita desde fuera
+- se sale con Ctrl+C   y del entorno con:  exit
+
+
